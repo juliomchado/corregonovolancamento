@@ -16,7 +16,6 @@ const Home: NextPage = () => {
     const startDate = new Date();
     const endDate = new Date(2021, 11, 25, 12);
 
-
     const duration = intervalToDuration(
       {
         start: startDate,
@@ -31,9 +30,10 @@ const Home: NextPage = () => {
       setTimeToLaunch(null);
     }
     else {
+
       const formattedDuration = formatDuration(duration, {
         delimiter: ', ',
-        format: ['days', 'minutes', 'seconds'],
+        format: ['days', 'hours', 'minutes', 'seconds'],
         locale: ptBR
       });
 

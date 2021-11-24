@@ -64,14 +64,6 @@ const Home: NextPage = () => {
 
   }, 1000)
 
-
-
-  // console.log('distance normal' + distanceInIso);
-  // console.log('distance in Iso ' + distanceInIso)
-
-  // console.log('dateToLaunch: ' + dateToLaunch)
-  // console.log('date now: ' + dateNow)
-
   return (
     <main className={styles.container}>
       <section className={styles.titlesSection}>

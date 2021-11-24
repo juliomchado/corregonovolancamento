@@ -7,6 +7,13 @@
 :root {
     --background-color: #171717;
     --button-color: #fbc02d;
+    --button-gold: linear-gradient(
+        90deg,
+        rgba(174, 134, 37, 1) 0%,
+        rgba(247, 239, 138, 1) 33%,
+        rgba(210, 172, 71, 1) 69%,
+        rgba(237, 201, 103, 1) 91%
+    );
 
     --text-primary: #fafafa;
     --text-secondary: #b6b6b6;
